@@ -46,4 +46,8 @@ There is also [Transfer Wise](https://transferwise.com/) as well. It's a much ni
 
 - Set up paperless statements if you haven't already done this
 
+## Setup appointment time
+
+As soon as you have found out if your visa has been approved your next step should be to set up an appointment date to have your fingerprints and photo to be taken.
+
 ## Packing your suitcase
