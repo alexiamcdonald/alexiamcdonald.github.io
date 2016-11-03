@@ -1,5 +1,5 @@
 ---
-title: Awesome Tools for Windows.
+title: Awesome Tools for Windows
 date: 2016-04-24
 tags: example
 ---

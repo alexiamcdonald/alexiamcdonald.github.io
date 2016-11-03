@@ -1,5 +1,5 @@
 ---
-title: How to find a Job in Tech.
+title: How to find a Job in Tech
 date: 2016-04-16
 tags: example
 ---
