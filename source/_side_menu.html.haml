@@ -1,0 +1,22 @@
+%h1
+  Alexia McDonald
+
+- if page_articles == 'home'
+  %view
+    %p
+      = link_to article.title
+
+      //so home only shows up here
+
+%p
+  %img{:alt => "Picture of me", :src => "./images/me.jpg"}
+
+- page_articles.each_with_index do |article, i|
+  %view
+    %p
+      = link_to article.title, article
+      //remove home
+%br
+%br
+
+= link_to "View My GitHub Profile", "https://github.com/alexiamcdonald", target: "_blank"
