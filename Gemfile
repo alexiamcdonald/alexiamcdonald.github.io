@@ -19,6 +19,8 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 gem "builder", "~> 3.0"
 
 gem 'middleman-livereload'
+gem 'nokogiri'
+gem 'pry-byebug'
 
 gem 'bitters'
 gem 'bourbon'
