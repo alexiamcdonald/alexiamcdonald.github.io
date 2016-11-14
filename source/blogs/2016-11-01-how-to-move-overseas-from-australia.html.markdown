@@ -57,3 +57,9 @@ There is also [Transfer Wise](https://transferwise.com/) as well. It's a much ni
 As soon as you have found out if your visa has been approved your next step should be to set up an appointment date to have your fingerprints and photo to be taken.
 
 ## Packing your suitcase
+
+As I was travelling to other countries on the way to Sweden. I needed to make sure that my suitcase was going to be compliant with all the airlines weight limits. I had a goal of making my suitcase 20kg even though with my first flight I was allowed 32kg. I looked up the weight limits for all the different airlines that I was flying with. Some ranged from 32kg to 20kg and I decided that it was probably best to aim for 20kg.
+
+I donated a lot of clothes to charities so that I could reach my weight limit and with some things I really wanted to keep but didn't need straight away I chucked into a box for shipping at a later date. I still haven't the box sent but I plan on sending it through Pack and Send as they seemed the cheapest when I looked up shipping under 30kg.
+
+I had the unfortunate scenario of travelling to different countries with different weather. I was really hoping that I would be able to pull of the 'no winter clothes' but it fucking started snowing in Sweden before I left Australia so I had to prepare. I had to pack sandals, winter shoes and my normal shoes. I had to pack a jacket for winter and of course my jacket in Australia is really shit because I'm from Australia and they don't know how to do anything correctly.

@@ -11,6 +11,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem "middleman", "~> 4.1"
 gem "middleman-blog"
+gem 'middleman-gh-pages'
 
 gem 'html2haml'
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
@@ -18,7 +19,13 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
-gem 'middleman-gh-pages'
+group :development do
+  gem 'middleman-livereload'
+  gem 'nokogiri'
+  gem 'pry-byebug'
+end
+
+
 
 gem 'bitters'
 gem 'bourbon'
