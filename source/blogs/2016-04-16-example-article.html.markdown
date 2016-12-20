@@ -1,7 +1,7 @@
 ---
 title: How to find a Job in Tech
 date: 2016-04-16
-tags: example
+tags: tech, jobs, university
 ---
 
 #### How to find a Job in Tech.

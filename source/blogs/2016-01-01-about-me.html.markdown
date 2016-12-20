@@ -1,7 +1,7 @@
 ---
 title: About me
 date: 2016-01-01
-tags: example
+tags: about, me
 ---
 
 # About Me

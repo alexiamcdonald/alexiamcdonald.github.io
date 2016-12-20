@@ -1,7 +1,7 @@
 ---
 title: Awesome Tools for Windows
 date: 2016-04-24
-tags: example
+tags: windows, tools, unix
 ---
 
 #### Awesome Tools for Windows.
