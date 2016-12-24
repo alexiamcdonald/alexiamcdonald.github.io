@@ -7,11 +7,23 @@
     %meta{:content => "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", :name => "viewport"}/
     / Use title if it's in the page YAML frontmatter
     %link{:href => "https://fonts.googleapis.com/css?family=Work+Sans", :rel => "stylesheet"}
-    %title= current_page.data.title || "Middleman"
+    %title= current_page.data.title || "Alexia's Blog"
     %link{:href => "//fonts.googleapis.com/css?family=Lato:300,400", :rel => "stylesheet", :type => "text/css"}/
     = stylesheet_link_tag 'styles'
     = stylesheet_link_tag 'github-light'
     -# = stylesheet_link_tag 'all'
     = javascript_include_tag :all
   %body{:class => page_classes}
-    = yield
+    .wrapper
+      %header
+        = partial 'partials/side_menu'
+      %section
+        %p
+          %img{:alt => "workmen original", :src => "/images/workmen.gif"}
+        %p
+          %img{:alt => "Workmen pixelart", :src => "/images/pixelworkmen.gif"}
+          %br
+          %br
+          = yield
+      %footer
+        = partial 'partials/footer'

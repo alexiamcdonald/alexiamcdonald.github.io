@@ -8,7 +8,7 @@
         = link_to article.title, article
 
 %p
-  %img{:alt => "Picture of me", :src => "./images/pic_me.jpg"}
+  %img{:alt => "Picture of me", :src => "/images/pic_me.jpg"}
 
 - page_articles.each_with_index do |article, i|
   - unless page_articles.select{|article| article.title == "About me"}
