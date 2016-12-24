@@ -6,7 +6,7 @@ tags: moving, travel, independence
 
 # How to move overseas from Australia
 
-## Get rid of everything
+### Get rid of everything
 
 When moving overseas it's best to get rid of as much as you possibly can. Really love that awesome bicycle you own? Sorry, it has to go. If there are small things you want to keep you can always post them to your new address overseas but if you can do without it then get rid of it.
 
@@ -19,9 +19,9 @@ Ways to rid yourself of crap:
 
 If you plan on selling your crap remember to give yourself a few weeks to do it. A lot of people who buy things off the internet are useless at turning up or even following through with their purchases.
 
-## Disconnecting utilities
+### Disconnecting utilities
 
-### Water/Gas/Electricity
+#### Water/Gas/Electricity
 Very simple to do. Just call them up a few days before you leave to disconnect the services.
 
 #### Health insurance
@@ -41,7 +41,7 @@ When it's time to leave just explain that you wish to cancel your contract due t
 
 I picked up a super expensive travel SIM as I was travelling to a bunch of different countries on the way. It seemed like the best option. I changed my Australian number to ALDI because it was on $5 to park my number there for a year better than some of the other telecommunications companies. My travel SIM ended up costing me more than $70 for the month because Israel got very expensive. It would have been ok if I hadn't gone to Israel. I've now switched to a SIM card in the country I am in now for practical reasons. But it's still temp at the moment due to the lack of personal number at the beginning of my arrival in Sweden.
 
-## Finances
+### Finances
 It's a good idea to pay your finances ahead of time. Exchange rates are terrible and you don't want to be that person who's traveller cheques aren't accepted. No one does cheques anymore coz they are super lame!
 
 You have some alternatives.
@@ -61,7 +61,7 @@ There is also [Transfer Wise](https://transferwise.com/) as well. It's a much ni
 
 - Make sure you have access to Paypal overseas. I found out the hard way when I lost my SIM card that I couldn't access my accounts because I had done 2 factor auth with my Australian phone number. Yup, good job me.
 
-## Getting stuff done in Sweden
+### Getting stuff done in Sweden
 
 As soon as you have found out if your visa has been approved your next step should be to set up an appointment date to have your fingerprints and photo to be taken at the immigration office.
 
@@ -73,7 +73,7 @@ After you have a personal number and an ID card you can apply for a bank account
 
 If you aren't staying for a year then a organisation number should be ok to get a bank account at some banks. They might give you a maestro bank card (which can be pretty useless) to access your account but they probably won't give you internet banking. Swedbank and Nordea are known for being really difficult when it comes to this. I've had success at SEB in the past so if you find yourself not being able to have financial independence at other banks then try SEB.  
 
-## Packing your suitcase
+### Packing your suitcase
 
 As I was travelling to other countries on the way to Sweden. I needed to make sure that my suitcase was going to be compliant with all the airlines weight limits. I had a goal of making my suitcase 20kg even though with my first flight I was allowed 32kg. I looked up the weight limits for all the different airlines that I was flying with. Some ranged from 32kg to 20kg and I decided that it was probably best to aim for 20kg.
 

@@ -4,7 +4,7 @@ date: 2016-04-16
 tags: tech, jobs, university
 ---
 
-#### How to find a Job in Tech.
+# How to find a Job in Tech.
 
 > You're still working on that website that you were working on 4 weeks ago?
 > That’s a lot of work for one website. There must be a lot of
@@ -66,7 +66,7 @@ the things you love!
 
 #### How?
 
-You can get started by working on a project on [Github](https://github.com/) or
+You can get started by working on a project on [Github](https://github.com/){:target="_blank"} or
 attending Hackathons. You can also work on that awesome personal project you
 have been thinking about for ages but haven't actually done yet!
 
