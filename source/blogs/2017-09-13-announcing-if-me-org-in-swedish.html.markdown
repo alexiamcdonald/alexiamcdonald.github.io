@@ -1,10 +1,10 @@
 ---
-title: Annoucing if-me.org in Swedish
+title: Announcing if-me.org in Swedish
 date: 2017-09-13
 tags: language, health, mental health, code, translations
 ---
 
-# Annoucing if-me.org in Swedish.
+# Announcing if-me.org in Swedish.
 
 Alexia McDonald is a developer from Melbourne, Australia who moved to Sweden. She joined if-me.org because she wanted to help her sister with RGSoC. She also wanted contribute to an open source project to further develop her skills. She led the Swedish translations with the help from [Olle Jonsson](https://github.com/olleolleolle){:target="_blank"}, [Ted Johansson](https://github.com/drenmi){:target="_blank"}, [Marcus Liverfalk](https://twitter.com/Marcus_Pazienza){:target="_blank"} and [Daniel Eriksson](https://github.com/clearminds){:target="_blank"}.
 
