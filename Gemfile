@@ -15,6 +15,7 @@ gem 'middleman-gh-pages'
 
 gem 'html2haml'
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'middleman-google-analytics', '~> 3.0'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"

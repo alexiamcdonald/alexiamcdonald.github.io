@@ -67,3 +67,7 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-90317107-1'
+end

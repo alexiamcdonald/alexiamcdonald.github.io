@@ -99,11 +99,11 @@ in cmder. Follow Github's``` [instructions
 for setting up your SSH keys](https://help.github.com/articles/generating-an-ssh-key/#platform-windows){:target="_blank"} ```using ssh-keygen```
 
 *The list goes on...*
-Check all the packages on [Chocolatey](https://chocolatey.org/packages)
+Check all the packages on [Chocolatey](https://chocolatey.org/packages){:target="_blank"}
 
 Have fun!
 
-[This might soon be obsolete information as Windows has this plan where they make Linux work on Windows for realz](https://msdn.microsoft.com/en-au/commandline/wsl/about")
+[This might soon be obsolete information as Windows has this plan where they make Linux work on Windows for realz](https://msdn.microsoft.com/en-au/commandline/wsl/about){:target="_blank"}
 
 
 !["Welcome to the interwebs"](http://i.giphy.com/l41m1CuaT5Oy624Ra.gif)

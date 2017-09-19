@@ -8,10 +8,14 @@ tags: about, me
 
 Hi, I'm Alexia.
 
-![dropdead fred](../images/crazy.gif)
+I'm a developer who has mainly worked in startups.
 
-I am currently working as a Developer at a startup company.
-This is where I'll be posting my blog and other stuff I find to be awesome.
+I'm a speaker of tech and mentor for women in tech.
 
+![picture of me](/images/duck.gif)
+
+I'm currently living in Stockholm, Sweden.
+
+Here you can read about some of the things I've been up to and stuff I've learnt along the way.
 
 If you want, you are most welcome to be my Twitter follower [@TheSpacepony](https://twitter.com/thespacepony){:target="_blank"}
