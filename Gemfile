@@ -12,6 +12,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem "middleman", "~> 4.1"
 gem "middleman-blog"
 gem 'middleman-gh-pages'
+gem 'middleman-deploy', '2.0.0.pre.alpha'
 
 gem 'html2haml'
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
