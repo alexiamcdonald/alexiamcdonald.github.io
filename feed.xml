@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2017/09/13/announcing-if-me-org-in-swedish.html"/>
     <id>http://blog.url.com/2017/09/13/announcing-if-me-org-in-swedish.html</id>
     <published>2017-09-13T02:00:00+02:00</published>
-    <updated>2017-09-19T21:20:11+02:00</updated>
+    <updated>2017-09-21T13:05:13+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -22,7 +22,8 @@
 
 &lt;p&gt;Alexia McDonald is a developer from Melbourne, Australia who moved to Sweden. She joined if-me.org because she wanted to help her sister with RGSoC. She also wanted contribute to an open source project to further develop her skills. She led the Swedish translations with the help from &lt;a href="https://github.com/olleolleolle" target="_blank"&gt;Olle Jonsson&lt;/a&gt;, &lt;a href="https://github.com/drenmi" target="_blank"&gt;Ted Johansson&lt;/a&gt;, &lt;a href="https://twitter.com/Marcus_Pazienza" target="_blank"&gt;Marcus Liverfalk&lt;/a&gt; and &lt;a href="https://github.com/clearminds" target="_blank"&gt;Daniel Eriksson&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="/images/swedish_site.png" alt="swedish site" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/2000/1*0N3ko6q4wc7HiJuLorSZxA.png" alt="Swedish town" /&gt;
+Picture of Waterfronts in Sweden, taken from &lt;a href="https://commons.wikimedia.org/wiki/File:Waterfronts_in_Sweden_14_2010.jpg"&gt;Wikimedia&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id="why-is-mental-health-important-to-you"&gt;Why is mental health important to you?&lt;/h3&gt;
 &lt;p&gt;Being a programmer means we use our brain as our main tool. It's super important to remain healthy in order to be a great programmer and being healthy includes looking after your mental health. Mental health is especially important when living in a country that isn't yours. This is something I've been struggling with in Sweden since it's not my "home-ground". My personal struggles around the language, gender diversity in tech and my personal relationships have all had a massive impact on my anxiety levels which have been pretty high since I decided to take the plunge out of my comfort zone.&lt;/p&gt;
@@ -40,6 +41,8 @@
 &lt;p&gt;Originally, I wanted to translate if-me.org into Swedish for foreigners who lived here. Like me, I felt they might also struggle and whilst some of these people might not know English as a second language I find providing Swedish would be a good start since &lt;a href="http://www.stockholm.se/sfi"&gt;SFI (free Swedish lessons)&lt;/a&gt; is available in Sweden.&lt;/p&gt;
 
 &lt;p&gt;But later, it occurred to me that translating something into Swedish would blow the myth that you need to know fluent Swedish in order to work as a programmer here in Sweden out of the water. Translating if-me.org has given me an opportunity to learn new words and phrases in Swedish that I had not come across yet and it's done that in a less aggressive manner than doing SFI because coding is something I actually enjoy doing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/swedish_site.png" alt="swedish site" /&gt;&lt;/p&gt;
 
 &lt;h3 id="were-there-any-interesting-challenges-you-came-across-while-translating"&gt;Were there any interesting challenges you came across while translating?&lt;/h3&gt;
 &lt;p&gt;The constant stream of comments about what the correct translation of certain words were, was funny but also taxing at times. I actually had to take a few days off before getting back into it because it was a lot of work to do.&lt;/p&gt;
