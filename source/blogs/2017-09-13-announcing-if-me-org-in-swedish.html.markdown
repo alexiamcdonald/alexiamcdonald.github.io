@@ -8,7 +8,9 @@ tags: language, health, mental health, code, translations
 
 Alexia McDonald is a developer from Melbourne, Australia who moved to Sweden. She joined if-me.org because she wanted to help her sister with RGSoC. She also wanted contribute to an open source project to further develop her skills. She led the Swedish translations with the help from [Olle Jonsson](https://github.com/olleolleolle){:target="_blank"}, [Ted Johansson](https://github.com/drenmi){:target="_blank"}, [Marcus Liverfalk](https://twitter.com/Marcus_Pazienza){:target="_blank"} and [Daniel Eriksson](https://github.com/clearminds){:target="_blank"}.
 
-![swedish site](/images/swedish_site.png)
+
+![Swedish town](https://cdn-images-1.medium.com/max/2000/1*0N3ko6q4wc7HiJuLorSZxA.png)
+Picture of Waterfronts in Sweden, taken from [Wikimedia](https://commons.wikimedia.org/wiki/File:Waterfronts_in_Sweden_14_2010.jpg)
 
 ### Why is mental health important to you?
 Being a programmer means we use our brain as our main tool. It's super important to remain healthy in order to be a great programmer and being healthy includes looking after your mental health. Mental health is especially important when living in a country that isn't yours. This is something I've been struggling with in Sweden since it's not my "home-ground". My personal struggles around the language, gender diversity in tech and my personal relationships have all had a massive impact on my anxiety levels which have been pretty high since I decided to take the plunge out of my comfort zone.
@@ -26,6 +28,8 @@ Honestly, I'm not sure how people here do it but it's definitely something I've 
 Originally, I wanted to translate if-me.org into Swedish for foreigners who lived here. Like me, I felt they might also struggle and whilst some of these people might not know English as a second language I find providing Swedish would be a good start since [SFI (free Swedish lessons)](http://www.stockholm.se/sfi) is available in Sweden.
 
 But later, it occurred to me that translating something into Swedish would blow the myth that you need to know fluent Swedish in order to work as a programmer here in Sweden out of the water. Translating if-me.org has given me an opportunity to learn new words and phrases in Swedish that I had not come across yet and it's done that in a less aggressive manner than doing SFI because coding is something I actually enjoy doing.
+
+![swedish site](/images/swedish_site.png)
 
 ### Were there any interesting challenges you came across while translating?
 The constant stream of comments about what the correct translation of certain words were, was funny but also taxing at times. I actually had to take a few days off before getting back into it because it was a lot of work to do.
