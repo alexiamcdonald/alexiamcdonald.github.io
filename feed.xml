@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2018-03-05T01:00:00+01:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Debugging the slow way.</title>
+    <link rel="alternate" href="http://blog.url.com/2018/03/05/debugging-the-slow-way.html"/>
+    <id>http://blog.url.com/2018/03/05/debugging-the-slow-way.html</id>
+    <published>2018-03-05T01:00:00+01:00</published>
+    <updated>2018-03-05T18:15:16+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="debugging-the-slow-way"&gt;Debugging the Slow Way.&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src="https://images.pexels.com/photos/813469/pexels-photo-813469.jpeg?w=1260&amp;amp;h=750&amp;amp;dpr=2&amp;amp;auto=compress&amp;amp;cs=tinysrgb" alt="Snail" /&gt;&lt;/p&gt;
+
+&lt;h4 id="changing-languages"&gt;Changing languages.&lt;/h4&gt;
+
+&lt;p&gt;So in my &lt;a href="/2017/12/18/future-plans-in-self-development.html" target="_blank"&gt;last article I wrote how I was doing Python nowadays instead of Ruby.&lt;/a&gt; 😭&lt;/p&gt;
+
+&lt;p&gt;It's been a lot easier than I originally thought it would be and I would say that a nice 😇 (or maybe not so nice 😈) side effect has meant my Javascript has significantly improved since the move too.&lt;/p&gt;
+
+&lt;p&gt;The main reason and the driving force for this has been the old skool and super boring way I've been debugging my problems in Python. There are tools similar to Ruby's Pry in Python such as PDB (Python De Bug???) but they are totally not the same or as flexible and that's mainly been why most of my cursing at work has been around "ahhhh damn you Python being so shitty!!!" whilst all my co-workers laugh at my &lt;a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"&gt;never ending adoration for Ruby.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id="back-to-school"&gt;Back to School.&lt;/h4&gt;
+
+&lt;p&gt;Yes, I've been using &lt;code&gt;Print()&lt;/code&gt; A LOT!&lt;/p&gt;
+
+&lt;p&gt;and &lt;code&gt;console.log()&lt;/code&gt; has been my go to for Javascript.&lt;/p&gt;
+
+&lt;p&gt;There is no updating the page and waiting for pry to stop my stuff and solving the problem in the console like I did for Ruby. I now have to think and refresh and then check it and then refresh and think and ALL THE THINGS I DIDN'T HAVE TO DO BEFORE.&lt;/p&gt;
+
+&lt;p&gt;I don't even remember what Pry was like anymore…&lt;/p&gt;
+
+&lt;p&gt;Anyway, going old skool can definitely improve your coding and if you really don't want to go to the trouble of adding Pry into your script/project for Ruby you can always use handy dandy &lt;code&gt;put&lt;/code&gt; method.&lt;/p&gt;
+
+&lt;p&gt;Happy Coding! ❤️&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Future Plans in Self Development.</title>
+    <link rel="alternate" href="http://blog.url.com/2017/12/18/future-plans-in-self-development.html"/>
+    <id>http://blog.url.com/2017/12/18/future-plans-in-self-development.html</id>
+    <published>2017-12-18T01:00:00+01:00</published>
+    <updated>2018-03-05T17:48:00+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="future-plans-in-self-development"&gt;Future Plans in Self Development.&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src="/images/new_years.jpeg" alt="Happy New Years" /&gt;&lt;/p&gt;
+
+&lt;h4 id="changes-in-my-personal-development"&gt;Changes in my personal development.&lt;/h4&gt;
+
+&lt;p&gt;Yesterday as I was scrolling through all my work in Github I remember reading this really awful article (won't even bother linking it) about how your Github profile is meant to determine how hard working you are in tech. This is a complete and utter fallacy by the way.&lt;/p&gt;
+
+&lt;p&gt;But it did get me thinking. I have a lot of public repos that are on display stupidly without licences but I guess they are automatically covered by copyright in Australia/Sweden (hopefully?) but still it's concerning. So I started changing them all to private repos. It took a while to do only because I had something like 30 repos of unfinished work. And I also had a lot of forks of other people's work that I was going to work on.&lt;/p&gt;
+
+&lt;p&gt;If you do work on private repos most of the time people can't see that on your Github so that's why I said it's a really stupid thing for someone to write in an article. Plus some of us use Bitbucket. 😅&lt;/p&gt;
+
+&lt;p&gt;So yeah if you haven't got licences on your work make sure you do that and don't take to heart that some people might seeing Github as a measure for how hard working you are.&lt;/p&gt;
+
+&lt;h4 id="plans-for-this-website"&gt;Plans for this website.&lt;/h4&gt;
+
+&lt;p&gt;I am planning on trying to write more next year on this blog. I know I've released a few articles here and there but I think maybe I should try and focus a bit more on what I've learnt especially since I'm now working in Python nowadays. Goodbye Ruby! 😭&lt;/p&gt;
+
+&lt;p&gt;It might be technical from now on. Although, I think it's important for me to focus on the social aspects of being in a dev community so this is a place for me to express those views too.&lt;/p&gt;
+
+&lt;p&gt;I've also decided to update this site to make it a bit more fresh but I think that might take a fair bit of time. Now that I've sorted out the backend to make writing articles super easy.&lt;/p&gt;
+
+&lt;p&gt;I'm also hoping to make this site a bit more interactive but I think that's going to mean I'll need to make the switch over to HTTPS and I still need to figure that out. 😂&lt;/p&gt;
+
+&lt;p&gt;So hopefully, in the New Year I'll live up to these super high expectations I've set for myself since I haven't been super involved in the physical community as much nowadays. 😉&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>A Home Away from Home.</title>
+    <link rel="alternate" href="http://blog.url.com/2017/11/23/a-home-away-from-home.html"/>
+    <id>http://blog.url.com/2017/11/23/a-home-away-from-home.html</id>
+    <published>2017-11-23T01:00:00+01:00</published>
+    <updated>2018-03-05T17:48:00+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="a-home-away-from-home"&gt;A Home Away from Home.&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I can’t think of anything that excites a greater sense of childlike wonder than to be in a country where you are ignorant of almost everything. Suddenly you are five years old again. You can’t read anything, you have only the most rudimentary sense of how things work, you can’t even reliably cross a street without endangering your life. Your whole existence becomes a series of interesting guesses. – Bill Bryson&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id="when-imposter-syndrome-becomes-real"&gt;When Imposter Syndrome becomes Real.&lt;/h4&gt;
+
+&lt;p&gt;In November 2016, I made a &lt;a href="/2016/12/19/how-to-move-overseas-from-australia.html" target="_blank"&gt;trip from Australia to Sweden&lt;/a&gt; in order to find life, love and a hope to further my career in Tech. After a series of unfortunate events and achieving a few of the goals I had set out to do I ended up feeling broken, alone and an imposter in my own supposed field of knowledge.&lt;/p&gt;
+
+&lt;p&gt;This was the first time I felt I had reached the Imposter Syndrome mountain peak. I was and still am in  a country where I am essentially 5 years old again. I find it difficult to communicate to people, I find it difficult for people to understand me and the ultimate problem that kept me up at night during the summertime was the inability to have and keep a job in a country I thought would be my new home.&lt;/p&gt;
+
+&lt;p&gt;Whilst I tried to keep a positive attitude to my then current situation, the reality was I had no idea what the hell I was even doing anymore.&lt;/p&gt;
+
+&lt;p&gt;In Australia, I thought I had made a good role model for Women in Tech within the Ruby community. I was known for doing my work well, I was known for taking on new challenges easily, I was known for talking about things that I thought I knew about and I was seen as a good mentor and role model for Women in Tech.&lt;/p&gt;
+
+&lt;p&gt;Fast forward and there I was sitting on a couch somewhere in Sweden waiting for my partner to come home in order to save me from myself. I found I had become reliant on him to help me. I needed him to pay for food. I needed him to keep a roof over our heads. I needed him to be happy so that I could have the most basic things in my life right then. He was the one who paid the bills and I was the one who sat at home all day trying to solve the problem of what I thought was my own doing.&lt;/p&gt;
+
+&lt;h4 id="so-what-was-i-actually-doing"&gt;So What Was I Actually Doing?&lt;/h4&gt;
+
+&lt;p&gt;I was and still am passionate, I was and still am practicing and I was and still am trying to be part of a community. I was doing all this whilst dealing with mental health issues that were doing my head in.&lt;/p&gt;
+
+&lt;p&gt;To be honest, I was depressed and anxious most of the time during the summer of 2017. I was desperately trying to organise job interviews everyday in order to prove that I could actually do what I did in Australia, here in Sweden.&lt;/p&gt;
+
+&lt;p&gt;As I complained to my partner that I couldn't keep doing this he would respond "You aren't sick. You just need a job and then everything will be better."&lt;/p&gt;
+
+&lt;p&gt;So I kept myself busy, ignoring the fact that there were tears constantly streaming down my face, in order to prove to myself that eventually after the long and tiresome journey of job searching I will have made it to where I want to be in my life.&lt;/p&gt;
+
+&lt;h4 id="was-i-passionate"&gt;Was I passionate?&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href="/2016/04/16/how-to-find-a-job-in-tech.html" target="_blank"&gt;'Passion is what you need. Clearly, if you had passion you
+would have a job by now.'&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is what I wrote last year and said naively to students at a University in Melbourne.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;'Are you working on something now?'&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yesssssss! Yes, I was and still am. I was working on myself. I was working on being part of an open source community &lt;a href="www.if-me.org" target="_blank"&gt;if-me.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;'Are you keeping yourself busy with what you love?'&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yesssssss! Yes, I was and still am. I was doing coding everyday. Of course I love it. I want to continue doing this, Alexia of the Past.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;'Seriously, people who are passionate about what they love are the ones that get jobs. They get emails all the time from people asking to hire them. If you aren’t getting emails from people asking you to work for them then something is wrong.'&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yessss! Yes, I do and still do (maybe more so now that I have a job). I would get emails but not the emails I wanted. I received emails from recruiters who didn't know what I was capable of or what I was after.&lt;/p&gt;
+
+&lt;p&gt;I needed to break out of the mould of a Ruby on Rails developer. I had to convince myself to come to the realisation that I needed to expand my skills more or that I was capable of doing those other languages like Python but I needed to be confident and that was something I felt could not do at that moment in time. So I needed to fake it, fake confidence!&lt;/p&gt;
+
+&lt;p&gt;I needed to say 'yes' more.&lt;/p&gt;
+
+&lt;p&gt;I also received emails from people who said "I was not senior enough" and emails from people who said I needed to "learn more Swedish" and emails from people who thanked me for running &lt;a href="http://railsgirls.com/stockholm_032017.html" target="_blank"&gt;Rails Girls in Stockholm&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The passion was clearly there. And it still is.&lt;/p&gt;
+
+&lt;h4 id="practicing-what-i-dont-know"&gt;Practicing what I don't know.&lt;/h4&gt;
+
+&lt;p&gt;I still believe I don't know anything. I know this. No one is capable of knowing everything. I've come to another country and essentially put myself in a situation where I've pretty much demoted myself and I'm back to being a child reliant on someone else to help me.&lt;/p&gt;
+
+&lt;p&gt;Which reminds me, that I read an article by &lt;a href="https://medium.freecodecamp.org/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331" target="_blank"&gt;Felix Feng about how he managed to get a job in tech&lt;/a&gt; and my overall view after reading that article with salary was that it was certainly not tied to experience at all but rather how confident you can be. So whilst I say "I've demoted myself" I had clearly demoted myself in terms of confidence rather than anything else.&lt;/p&gt;
+
+&lt;p&gt;Code tests, whilst I've had to do many of them, I had taken to task that I had to fix code tests I had supposedly failed at rather than do new ones.&lt;/p&gt;
+
+&lt;p&gt;My reason being was that it saved me time, energy and confidence which could be spent on certain companies, which may or may not have given me the job regardless of if I completed a code test or not.&lt;/p&gt;
+
+&lt;p&gt;My method helped me become a better programmer in that I could go over code I had clearly done in a stressed environment, look at it and figure out where I had gone wrong. I could do this in a way that helped me but also it gave me the opportunity to ask others to review and help me find the errors of my ways so I could learn from that.&lt;/p&gt;
+
+&lt;p&gt;It was interesting for me in that some people thought my code was perfect whilst others found parts of it that were completely wrong according to them. And this makes me wonder if code tests are essentially a waste of time for everyone involved because it justifies people's bias when they know who has done the code.&lt;/p&gt;
+
+&lt;h4 id="being-part-of-the-local-community-isnt-always-easy"&gt;Being part of the local community isn't always easy.&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The easiest and best way to get a job is through someone you know already.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Stockholm shuts down in the Summertime. And this means, so do opportunities to network. People go on holidays and a lot of tasks that are normally easy to do become extremely difficult. It's a cultural thing, for sure! And another story for another time.&lt;/p&gt;
+
+&lt;p&gt;If you don't speak Swedish, it can be difficult to bond with people. I'm part of many Swedish code communities and most of the time I am unable to contribute or even understand what is going on due to my inability to understand or speak Swedish. It's thing I don't experience in the &lt;a href="ruby-berlin.slack.com" target="_blank"&gt;Berlin slack group&lt;/a&gt; that I'm part of. But it could be I'm more ingrained into Swedish culture than German.&lt;/p&gt;
+
+&lt;p&gt;The only way to fix that particular issue is to magically become fluent in a language I don't know very well. I know I'm better than most people (most being the rest of the world) but it's not enough and it's a problem.&lt;/p&gt;
+
+&lt;p&gt;I've been learning Swedish very slowly and maybe I should motivate myself to learn it faster but it's difficult when people hear my Australian accent through my Swedish and automatically talk to me in English.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.internations.org/expat-insider/2017/ease-of-settling-in-index-39187" target="_blank"&gt;Sweden isn't exactly known for being the best place for ease of settling in.&lt;/a&gt; This might shock some people who believe the hype of Sweden being the best country in the world.&lt;/p&gt;
+
+&lt;p&gt;But all these problems, I've had with the community in Stockholm/Sweden hasn't stopped me from trying to participate and meet people. I organised &lt;a href="http://railsgirls.com/stockholm_032017.html" target="_blank"&gt;Rails Girls in March 2017&lt;/a&gt; for the first time in 2 years and I met a lot of lovely people willing to help make this happen.&lt;/p&gt;
+
+&lt;p&gt;And my contribution to &lt;a href="www.if-me.org" target="_blank"&gt;if-me.org&lt;/a&gt; in offering Swedish as a language was &lt;a href="/2017/09/13/announcing-if-me-org-in-swedish.html" target="_blank"&gt;made possible by people in Sweden.&lt;/a&gt; So help is definitely there, you just need to find the right way of asking for it.&lt;/p&gt;
+
+&lt;p&gt;This is a similar experience I had the last time I was in Stockholm, in 2013 when my friend Isak helped me out by letting me stay at his home for a while. I was in a similar job searching situation.&lt;/p&gt;
+
+&lt;p&gt;Although, I would say that job searching now it's a lot more difficult due to the the political climate change around foreigners that's been brewing for a while now.&lt;/p&gt;
+
+&lt;h4 id="so-whats-the-advice"&gt;So what's the advice?&lt;/h4&gt;
+
+&lt;p&gt;I'd say keep going!&lt;/p&gt;
+
+&lt;p&gt;Take my advice from the first article I wrote about &lt;a href="/2016/04/16/how-to-find-a-job-in-tech.html" target="_blank"&gt;How to Get a Job in Tech&lt;/a&gt; but also take it with a massive pinch of salt.&lt;/p&gt;
+
+&lt;p&gt;Finding a job is hard. You need to look after your mental health as that's a major priority. Check out &lt;a href="/2017/09/13/announcing-if-me-org-in-swedish.html" target="_blank"&gt;my thoughts on Mental Health in Sweden.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But most importantly be &lt;strong&gt;kind to yourself and if it gets tough ask for help.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P.S.&lt;/strong&gt; I eventually got a job at Star Stable Entertainment ❤️🦄&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Announcing if-me.org in Swedish</title>
+    <link rel="alternate" href="http://blog.url.com/2017/09/13/announcing-if-me-org-in-swedish.html"/>
+    <id>http://blog.url.com/2017/09/13/announcing-if-me-org-in-swedish.html</id>
+    <published>2017-09-13T02:00:00+02:00</published>
+    <updated>2018-03-05T17:48:00+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="announcing-if-meorg-in-swedish"&gt;Announcing if-me.org in Swedish.&lt;/h1&gt;
+
+&lt;p&gt;Alexia McDonald is a developer from Melbourne, Australia who moved to Sweden. She joined if-me.org because she wanted to help her sister with RGSoC. She also wanted contribute to an open source project to further develop her skills. She led the Swedish translations with the help from &lt;a href="https://github.com/olleolleolle" target="_blank"&gt;Olle Jonsson&lt;/a&gt;, &lt;a href="https://github.com/drenmi" target="_blank"&gt;Ted Johansson&lt;/a&gt;, &lt;a href="https://twitter.com/Marcus_Pazienza" target="_blank"&gt;Marcus Liverfalk&lt;/a&gt; and &lt;a href="https://github.com/clearminds" target="_blank"&gt;Daniel Eriksson&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn-images-1.medium.com/max/2000/1*0N3ko6q4wc7HiJuLorSZxA.png" alt="Swedish town" /&gt;
+Picture of Waterfronts in Sweden, taken from &lt;a href="https://commons.wikimedia.org/wiki/File:Waterfronts_in_Sweden_14_2010.jpg"&gt;Wikimedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="why-is-mental-health-important-to-you"&gt;Why is mental health important to you?&lt;/h3&gt;
+&lt;p&gt;Being a programmer means we use our brain as our main tool. It's super important to remain healthy in order to be a great programmer and being healthy includes looking after your mental health. Mental health is especially important when living in a country that isn't yours. This is something I've been struggling with in Sweden since it's not my "home-ground". My personal struggles around the language, gender diversity in tech and my personal relationships have all had a massive impact on my anxiety levels which have been pretty high since I decided to take the plunge out of my comfort zone.&lt;/p&gt;
+
+&lt;h3 id="how-is-mental-health-perceived-and-treated-in-sweden"&gt;How is mental health perceived and treated in Sweden?&lt;/h3&gt;
+&lt;p&gt;From my personal experience of living in Sweden, most people tend to keep to themselves and anyone seen complaining is rather frowned upon. Keeping a positive facade is something I find Swedes pride themselves on and showing any negative emotions is seen as a sign of weakness to others but also themselves.&lt;/p&gt;
+
+&lt;p&gt;I've noticed in Sweden it's normal to shun people who are sad or negative either because you don't know what to say or you don't want to be sucked into the 'drama'. It's a thing to avoid people here. No one wants to say anything and no one wants to look at anyone.&lt;/p&gt;
+
+&lt;p&gt;Workplaces, although they are touted as a place for flexibility and equality can end up being a breeding grounds for burnout or as it's known here in Sweden "hitting the wall".&lt;/p&gt;
+
+&lt;p&gt;Honestly, I'm not sure how people here do it but it's definitely something I've really struggled with and hopefully some of the people who experience the things I mention can benefit from this site being translated into a language they are familiar with.&lt;/p&gt;
+
+&lt;h3 id="why-did-you-want-to-participate-in-translating-if-meorg"&gt;Why did you want to participate in translating if-me.org?&lt;/h3&gt;
+&lt;p&gt;Originally, I wanted to translate if-me.org into Swedish for foreigners who lived here. Like me, I felt they might also struggle and whilst some of these people might not know English as a second language I find providing Swedish would be a good start since &lt;a href="http://www.stockholm.se/sfi"&gt;SFI (free Swedish lessons)&lt;/a&gt; is available in Sweden.&lt;/p&gt;
+
+&lt;p&gt;But later, it occurred to me that translating something into Swedish would blow the myth that you need to know fluent Swedish in order to work as a programmer here in Sweden out of the water. Translating if-me.org has given me an opportunity to learn new words and phrases in Swedish that I had not come across yet and it's done that in a less aggressive manner than doing SFI because coding is something I actually enjoy doing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/swedish_site.png" alt="swedish site" /&gt;&lt;/p&gt;
+
+&lt;h3 id="were-there-any-interesting-challenges-you-came-across-while-translating"&gt;Were there any interesting challenges you came across while translating?&lt;/h3&gt;
+&lt;p&gt;The constant stream of comments about what the correct translation of certain words were, was funny but also taxing at times. I actually had to take a few days off before getting back into it because it was a lot of work to do.&lt;/p&gt;
+
+&lt;p&gt;A great example of where I made a funny/tragic mistake is when I wrote “Allierade som kan se din strategi och tagga egna ögon med det.” which means “Allies who can see your strategy and take their own eyes with it.”&lt;/p&gt;
+
+&lt;p&gt;Anyway, a huge thanks once again to &lt;a href="https://github.com/olleolleolle" target="_blank"&gt;Olle Jonsson&lt;/a&gt;, &lt;a href="https://github.com/drenmi" target="_blank"&gt;Ted Johansson&lt;/a&gt;, &lt;a href="https://twitter.com/Marcus_Pazienza" target="_blank"&gt;Marcus Liverfalk&lt;/a&gt; and &lt;a href="https://github.com/clearminds" target="_blank"&gt;Daniel Eriksson&lt;/a&gt; for their hard work reading and correcting my Swedish 💜.&lt;/p&gt;
+
+&lt;p&gt;Let us know how your experience is going with our Swedish site. If you want to see our app in your language, contact us at &lt;a href="&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#106;&amp;#111;&amp;#105;&amp;#110;&amp;#046;&amp;#105;&amp;#102;&amp;#109;&amp;#101;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;"&gt;&amp;#106;&amp;#111;&amp;#105;&amp;#110;&amp;#046;&amp;#105;&amp;#102;&amp;#109;&amp;#101;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>How to Move Overseas From Australia</title>
+    <link rel="alternate" href="http://blog.url.com/2016/12/19/how-to-move-overseas-from-australia.html"/>
+    <id>http://blog.url.com/2016/12/19/how-to-move-overseas-from-australia.html</id>
+    <published>2016-12-19T01:00:00+01:00</published>
+    <updated>2018-03-05T17:48:00+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="how-to-move-overseas-from-australia"&gt;How to move overseas from Australia&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src="/images/freedom_moving.jpeg" alt="woman being free" /&gt;&lt;/p&gt;
+
+&lt;h3 id="get-rid-of-everything"&gt;Get rid of everything&lt;/h3&gt;
+
+&lt;p&gt;When moving overseas it's best to get rid of as much as you possibly can. Really love that awesome bicycle you own? Sorry, it has to go. If there are small things you want to keep you can always post them to your new address overseas but if you can do without it then get rid of it.&lt;/p&gt;
+
+&lt;p&gt;Ways to rid yourself of crap:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sell it on Gumtree or through Facebook&lt;/li&gt;
+  &lt;li&gt;Give it away to friends&lt;/li&gt;
+  &lt;li&gt;If it's useless meaningless crap throw it out&lt;/li&gt;
+  &lt;li&gt;Donate to charity (they sometimes even come pick it up for you!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you plan on selling your crap remember to give yourself a few weeks to do it. A lot of people who buy things off the internet are useless at turning up or even following through with their purchases.&lt;/p&gt;
+
+&lt;h3 id="disconnecting-utilities"&gt;Disconnecting utilities&lt;/h3&gt;
+
+&lt;h4 id="watergaselectricity"&gt;Water/Gas/Electricity&lt;/h4&gt;
+&lt;p&gt;Very simple to do. Just call them up a few days before you leave to disconnect the services.&lt;/p&gt;
+
+&lt;h4 id="health-insurance"&gt;Health insurance&lt;/h4&gt;
+&lt;p&gt;I'm currently with AHM and if you call them up they can put your health insurance on hold for a year. Very practical. If you come back for a holiday (to Australia) you can just restart and you don't have to do the waiting periods again. You can also put it back on hold any time. Very handy indeed.&lt;/p&gt;
+
+&lt;p&gt;If you can find health insurance that includes travel insurance that's also a bonus. Lucky for me I found a credit card that throw it in compliments of your spending.&lt;/p&gt;
+
+&lt;h4 id="internet"&gt;Internet&lt;/h4&gt;
+&lt;p&gt;This one was actually a kicker for me. I ended up having to pay extra because I forgot to read the fine print for cancellation. Some internet companies &lt;em&gt;cough&lt;/em&gt; TPG &lt;em&gt;cough&lt;/em&gt; want you to cancel at least 30 days before. If you are leaving before 30 days you might have to pay a cancellation fee unless you find some kind soul to take over your services.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.wes.id.au/2014/02/cancel-tpg-adsl/"&gt;This person's website was very helpful when cancelling my TPG account&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id="mobile-services"&gt;Mobile services&lt;/h4&gt;
+&lt;p&gt;If you know you are going to leave sometime in the future make sure you call your mobile provider every couple of months to complain about the shitty service of your postpaid contract account. If you do this it will provide a very easy way for you to cancel the contract without incurring expensive costs that are usually associated with contracts.&lt;/p&gt;
+
+&lt;p&gt;When it's time to leave just explain that you wish to cancel your contract due to extremely awful service and you'll usually have your service either heavily discounted or waived completely.&lt;/p&gt;
+
+&lt;p&gt;I picked up a super expensive travel SIM as I was travelling to a bunch of different countries on the way. It seemed like the best option. I changed my Australian number to ALDI because it was on $5 to park my number there for a year better than some of the other telecommunications companies. My travel SIM ended up costing me more than $70 for the month because Israel got very expensive. It would have been ok if I hadn't gone to Israel. I've now switched to a SIM card in the country I am in now for practical reasons. But it's still temp at the moment due to the lack of personal number at the beginning of my arrival in Sweden.&lt;/p&gt;
+
+&lt;h3 id="finances"&gt;Finances&lt;/h3&gt;
+&lt;p&gt;It's a good idea to pay your finances ahead of time. Exchange rates are terrible and you don't want to be that person who's traveller cheques aren't accepted. No one does cheques anymore coz they are super lame!&lt;/p&gt;
+
+&lt;p&gt;You have some alternatives.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Get yourself a credit card with "No foreign transaction fees on online or overseas purchases"
+I had a look around the &lt;a href="http://www.bankwest.com.au/personal/credit-cards/compare-credit-cards/zero-mastercard-no-annual-fee-credit-cards"&gt;Bankwest Zero Platinum Mastercard&lt;/a&gt; was the best one I could find for my situation and it also offered complimentary travel insurance. Make sure you look up a credit card compare site to find the best deal for your scenario.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set up a money transfer account&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://www.xe.com/xemoneytransfer/au/?WT.seg_1=XTR-400x30-XHOM-ADH-AU-V01-161031"&gt;XE Money Transfer&lt;/a&gt; is a great way to easily transfer money between your Australian account and your new overseas bank account. It's a little bit of a hassle to setup and they might randomly call you in the middle of the night from some foreign country to confirm you're a legit person.&lt;/p&gt;
+
+&lt;p&gt;There is also &lt;a href="https://transferwise.com/"&gt;Transfer Wise&lt;/a&gt; as well. It's a much nicer web experience and verification takes less time too! You can easily set it up with Facebook or your Google account. Either way I'll end up using one of the two to transfer money to myself.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tell your banks you are going overseas&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set up paperless statements if you haven't already done this&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure you have access to Paypal overseas. I found out the hard way when I lost my SIM card that I couldn't access my accounts because I had done 2 factor auth with my Australian phone number. Yup, good job me.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="getting-stuff-done-in-sweden"&gt;Getting stuff done in Sweden&lt;/h3&gt;
+
+&lt;p&gt;As soon as you have found out if your visa has been approved your next step should be to set up an appointment date to have your fingerprints and photo to be taken at the immigration office.&lt;/p&gt;
+
+&lt;p&gt;As soon as you get this card from the immigration office you need to go to the Tax office and ask for a personal number. If at all possible try and get a Tax ID card from them on the same day. They may not be able to do it in which case you will probably have to wait a week and then come back to get the ID card. You can also hand in your forms for Försäkringskassan which you will have to fill in if you are staying in Sweden longer than a year.&lt;/p&gt;
+
+&lt;p&gt;All these processes may take more than 2 weeks.&lt;/p&gt;
+
+&lt;p&gt;After you have a personal number and an ID card you can apply for a bank account. Bank accounts in Sweden seem to be very difficult to get if you are not a Swede. They don't seem to care if you earn money or that you need to pay people. If you aren't Swedish you can't have a bank account. So make sure you have a personal number and an ID card and you should be able to get one.&lt;/p&gt;
+
+&lt;p&gt;If you aren't staying for a year then a organisation number should be ok to get a bank account at some banks. They might give you a maestro bank card (which can be pretty useless) to access your account but they probably won't give you internet banking. Swedbank and Nordea are known for being really difficult when it comes to this. I've had success at SEB in the past so if you find yourself not being able to have financial independence at other banks then try SEB.&lt;/p&gt;
+
+&lt;h3 id="packing-your-suitcase"&gt;Packing your suitcase&lt;/h3&gt;
+
+&lt;p&gt;As I was travelling to other countries on the way to Sweden. I needed to make sure that my suitcase was going to be compliant with all the airlines weight limits. I had a goal of making my suitcase 20kg even though with my first flight I was allowed 32kg. I looked up the weight limits for all the different airlines that I was flying with. Some ranged from 32kg to 20kg and I decided that it was probably best to aim for 20kg.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;** Turns out I still had to pay for extra baggage on my way to Prague because it wasn't specified very clearly on the website. Thank you Air Berlin! **&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I donated a lot of clothes to charities so that I could reach my weight limit and with some things I really wanted to keep but didn't need straight away I chucked into a box for shipping at a later date. I still haven't the box sent but I plan on sending it through Pack and Send as they seemed the cheapest when I looked up shipping under 30kg.&lt;/p&gt;
+
+&lt;p&gt;I had the unfortunate scenario of travelling to different countries with different weather. I was really hoping that I would be able to pull of the 'no winter clothes' but it fucking started snowing in Sweden before I left Australia so I had to prepare. I had to pack sandals, winter shoes and my normal shoes. I had to pack a jacket for winter and of course my jacket in Australia is really shit because Australia.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Awesome Tools for Windows</title>
+    <link rel="alternate" href="http://blog.url.com/2016/04/24/awesome-tools-for-windows.html"/>
+    <id>http://blog.url.com/2016/04/24/awesome-tools-for-windows.html</id>
+    <published>2016-04-24T02:00:00+02:00</published>
+    <updated>2018-03-05T17:48:00+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="awesome-tools-for-windows"&gt;Awesome Tools for Windows.&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Asked about the fact that Apple's iTunes software for Windows
+computers was extremely popular, Jobs joked, 'It's like giving a glass of ice
+water to somebody in hell.”
+― Walter Isaacson&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id="open-the-windows"&gt;Open the Windows.&lt;/h4&gt;
+
+&lt;p&gt;When I first started University with the idea of being a programmer I had no
+idea how easy I could make my life if I had just installed Linux. The computers
+we were taught on pretty much all had Windows installed on them and only
+some of the really serious people in my course had switched to Linux. I was
+scared to the jump ship and knowing that my craptop had &lt;a href="https://en.wikipedia.org/wiki/Hardware_virtualization" target="_blank"&gt;hardware virtualisation&lt;/a&gt; disabled it wouldn't be possible to switch back quickly if I
+wanted to.&lt;/p&gt;
+
+&lt;p&gt;This is when I met &lt;a href="https://github.com/brendanzab" target="_blank"&gt;Brendan&lt;/a&gt; who offered up his awesome
+knowledge to me about the possibility of making Windows run a little bit like Linux.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.giphy.com/cOWNPwDDh1tYs.gif" alt="&amp;quot;Mmm chocolate&amp;quot;" /&gt;&lt;/p&gt;
+
+&lt;h4 id="everything-is-better-with-chocolate"&gt;Everything is better with Chocolate.&lt;/h4&gt;
+
+&lt;p&gt;Windows, the land where open source software pages look like you are going to
+download Malware.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"Chocolatey is a package manager for Windows (like apt-get or yum
+but for Windows). It was designed to be a decentralized framework for quickly
+installing applications and tools that you need. It is built on the NuGet
+infrastructure currently using PowerShell as its focus for delivering packages
+from the distros to your door, err computer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is a must if you want to live the Windows life.&lt;/p&gt;
+
+&lt;p&gt;Install &lt;a href="https://chocolatey.org/" target="_blank"&gt;chocolatey&lt;/a&gt; to free yourself!&lt;/p&gt;
+
+&lt;h4 id="simba-cmder"&gt;Simba, Cmder…&lt;/h4&gt;
+
+&lt;p&gt;Did you know you can have an awesome console on Windows?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"Cmder is a software package created out of pure frustration over the absence of nice
+console emulators on Windows. It is based on amazing software, and spiced up
+with the Monokai color scheme and a custom prompt layout. Looking sexy from the
+start."&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Well, welcome to the wonderful world of
+&lt;a href="http://cmder.net/" target="_blank"&gt;Cmder&lt;/a&gt;. The place where no one knows how to pronouce
+it and honestly we don't care because it's got multi tabs. YAY!&lt;/p&gt;
+
+&lt;p&gt;To download this sweet terminal just go into what you currently have… either
+Powershell or CMD and type in the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;choco install cmder&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Pin it to your toolbar and you're good to go for the rest
+of your Windows career.&lt;/p&gt;
+
+&lt;p&gt;*If it doesn't work you are probably missing &lt;a href="https://www.microsoft.com/en-au/download/details.aspx?id=48145" target="_blank"&gt;Visual C++ Redistributable&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.giphy.com/szmmbDDpS67LO.gif" alt="&amp;quot;Simba dance&amp;quot;" /&gt;&lt;/p&gt;
+
+&lt;h4 id="go-crazy"&gt;Go crazy.&lt;/h4&gt;
+
+&lt;p&gt;Now you are set to go and can download all the things! These two tools are
+awesome and make life so much easier. There are heaps of awesome things you
+could do.&lt;/p&gt;
+
+&lt;p&gt;You could install &lt;strong&gt;Git:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;choco install git&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Or perhaps you want to run &lt;strong&gt;Bash on Cmder:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Open Cmder, then click on the new tab menu, selecting the Setup tasks... option.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/cmder-task-settings.png" alt="cmder setup" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a new task by clicking the + button, and enter the following settings:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Name:&lt;/strong&gt; &lt;code&gt;Git Bash&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Task parameters:&lt;/strong&gt; &lt;code&gt;/icon "%ProgramFiles(x86)%\Git\etc\git.ico" /dir "%userprofile%"&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Commands:&lt;/strong&gt; &lt;code&gt;""C:\Program Files (x86)\Git\bin\sh.exe" --login -i"&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Or maybe you want to code some &lt;strong&gt;Ruby&lt;/strong&gt; &lt;code&gt;choco install ruby&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;My personal favourite is to add my &lt;strong&gt;SSH keys&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Open Git Bash
+in cmder. Follow Github's&lt;/code&gt; &lt;a href="https://help.github.com/articles/generating-an-ssh-key/#platform-windows" target="_blank"&gt;instructions
+for setting up your SSH keys&lt;/a&gt; &lt;code&gt;using ssh-keygen&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The list goes on…&lt;/em&gt;
+Check all the packages on &lt;a href="https://chocolatey.org/packages" target="_blank"&gt;Chocolatey&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Have fun!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://msdn.microsoft.com/en-au/commandline/wsl/about" target="_blank"&gt;This might soon be obsolete information as Windows has this plan where they make Linux work on Windows for realz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.giphy.com/l41m1CuaT5Oy624Ra.gif" alt="&amp;quot;Welcome to the interwebs&amp;quot;" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>
