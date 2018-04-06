@@ -5,10 +5,119 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2018-03-05T01:00:00+01:00</updated>
+  <updated>2018-03-29T02:00:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Down the Rabbit Hole</title>
+    <link rel="alternate" href="http://blog.url.com/2018/03/29/down-the-rabbit-hole.html"/>
+    <id>http://blog.url.com/2018/03/29/down-the-rabbit-hole.html</id>
+    <published>2018-03-29T02:00:00+02:00</published>
+    <updated>2018-04-06T15:06:10+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="down-the-rabbit-hole"&gt;Down the Rabbit Hole.&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But I don’t want to go among mad people," Alice remarked.
+"Oh, you can’t help that," said the Cat: "we’re all mad here. I’m mad. You’re mad."
+"How do you know I’m mad?" said Alice.
+"You must be," said the Cat, "or you wouldn’t have come here.”
+― Lewis Carroll, Alice in Wonderland&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id="through-the-looking-glass"&gt;Through the Looking Glass&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="https://images.pexels.com/photos/121663/pexels-photo-121663.jpeg?auto=compress&amp;amp;cs=tinysrgb&amp;amp;dpr=2&amp;amp;h=750&amp;amp;w=1260" alt="rabbit hole" /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week I met up with &lt;a href="https://github.com/chinamisr254" target="_blank"&gt;Joseph Hawkins&lt;/a&gt; a budding Ruby Developer from the US who I helped a little to find his way out of a rabbit hole in his code.&lt;/p&gt;
+
+&lt;p&gt;For me, when I'm mentoring folks I find it interesting to see how folks are taught programming in different countries but with similar code assignments. And it's interesting to meet different people who learn at different speeds and do different things to solve the same problem.&lt;/p&gt;
+
+&lt;p&gt;As some people might know, I've been mentoring my sister &lt;a href="https://twitter.com/sophierose239" target="_blank"&gt;Sophie McDonald&lt;/a&gt; as well and one thing I find about mentoring is that I usually get asked similar questions. So I thought I should write something so that people who are aspiring to be programmers understand that even programmers who you think are "so above you" actually make mistakes and can get into similar situations like you too.&lt;/p&gt;
+
+&lt;p&gt;And the reason I say this is because we all have similar fears and anxiety around learning something new or even old.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" data-lang="en-gb"&gt;&lt;p lang="en" dir="ltr"&gt;I have been coding Ruby for over a decade and yet I just lost an hour because of something expecting a string when I was giving it a symbol.&lt;/p&gt;&amp;mdash; Ryan Bigg (@ryanbigg) &lt;a href="https://twitter.com/ryanbigg/status/979578016127885312?ref_src=twsrc%5Etfw"&gt;30 March 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id="brainfarts-and-rabbit-holes"&gt;Brainfarts and Rabbit Holes&lt;/h3&gt;
+
+&lt;p&gt;I'm a little embarrassed to admit this but I have "brainfarts" moments all the time and end up in rabbit holes so much so that I can end up wasting time writing silly code that is not even needed. Usually it happens when I'm stressed or I haven't had enough sleep or even from just the weather being awful.&lt;/p&gt;
+
+&lt;p&gt;So if it's really important to make sure your mental health and physical health is in tip top shape if you want to function properly.&lt;/p&gt;
+
+&lt;p&gt;Ok.. soooo here is the problem I spent a bunch of time on that is really embarrassing for me.&lt;/p&gt;
+
+&lt;p&gt;I had an input field similar to the one below with:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+&amp;lt;select class="form-control" name="language" type="language" id="language"&amp;gt;
+  &amp;lt;option value=""&amp;gt;Select Language&amp;lt;/option&amp;gt;
+  &amp;lt;option value="1"&amp;gt;English&amp;lt;/option&amp;gt;
+  &amp;lt;option value="2"&amp;gt;French&amp;lt;/option&amp;gt;
+  &amp;lt;option value="3"&amp;gt;Japanese&amp;lt;/option&amp;gt;
+&amp;lt;/select&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;select class="form-control" name="language" type="language" id="language"&gt;
+  &lt;option value=""&gt;Select Language&lt;/option&gt;
+  &lt;option value="1"&gt;English&lt;/option&gt;
+  &lt;option value="2"&gt;French&lt;/option&gt;
+  &lt;option value="3"&gt;Japanese&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+
+&lt;p&gt;And for some reason I couldn't remember that you there is an ability to have a &lt;code&gt;selected&lt;/code&gt; option in html.&lt;/p&gt;
+
+&lt;p&gt;So I started writing in Python a way to remove the language I was selecting from the list because it would showing up twice the way I had written the HTML originally. I had even spent some time writing tests to solve this. 😨&lt;/p&gt;
+
+&lt;p&gt;The messed up way looked like the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;select class="form-control" name="language" type="language" id="language"&gt;
+  &lt;option value="3"&gt;Japanese&lt;/option&gt;
+  &lt;option value="1"&gt;English&lt;/option&gt;
+  &lt;option value="2"&gt;French&lt;/option&gt;
+  &lt;option value="3"&gt;Japanese&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+
+&lt;p&gt;Seriously, open that drop down menu up and see what's going on and you'll see the issue I had. 😅 And I was trying to solve this problem in the backend with Python. WTF brain why aren't you working?!?!&lt;/p&gt;
+
+&lt;p&gt;Anyway, after a day or something and talking with a workmate, 🦆 I realised that all I needed to do was write the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;option value="3" selected&amp;gt;Japanese&amp;lt;/option&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;So that it would turn out like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;select class="form-control" name="language" type="language" id="language"&gt;
+  &lt;option value=""&gt;Select Language&lt;/option&gt;
+  &lt;option value="1"&gt;English&lt;/option&gt;
+  &lt;option value="2"&gt;French&lt;/option&gt;
+  &lt;option value="3" selected=""&gt;Japanese&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm not even going to show you the Python I wrote for trying to solve this problem because no one should see that EVER. And also it's completely useless so if I put it anywhere I'm worried people might use it.&lt;/p&gt;
+
+&lt;p&gt;It's been deleted forever now.&lt;/p&gt;
+
+&lt;h3 id="fear-of-failure"&gt;Fear of Failure&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="https://images.pexels.com/photos/568027/pexels-photo-568027.jpeg?auto=compress&amp;amp;cs=tinysrgb&amp;amp;h=650&amp;amp;w=940" alt="fear" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I feel like a lot of questions on Stack Overflow, especially Javascript problems, are people having brainfart moments. I think it's important that those exist but sometimes they can lead us down the wrong path and we end up losing our way.&lt;/p&gt;
+
+&lt;p&gt;So if you do post on Stack Overflow (and I highly recommend you do at some stage) make sure you have tried to researched the problem thoroughly and checked to see if someone has asked a similar question. Believe me when I say, there is most likely an answer already written somewhere about the same problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Overcome the fear of failure because the first step to success is to at least try.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;And don't feel bad if you don't know something. Just Google it! Even if you feel it's something you should already know. Learning something over and over again is calling practicing and it helps you become better by committing it to your long term memory.&lt;/p&gt;
+
+&lt;p&gt;Basically what I'm trying to say with this post, is that everyone has these moments even people who have been coding for years. So if you are ever feeling like you can't do it just remember we are all have the ability to do it wrong.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Debugging the slow way.</title>
     <link rel="alternate" href="http://blog.url.com/2018/03/05/debugging-the-slow-way.html"/>
@@ -351,124 +460,6 @@ I had a look around the &lt;a href="http://www.bankwest.com.au/personal/credit-c
 &lt;p&gt;I donated a lot of clothes to charities so that I could reach my weight limit and with some things I really wanted to keep but didn't need straight away I chucked into a box for shipping at a later date. I still haven't the box sent but I plan on sending it through Pack and Send as they seemed the cheapest when I looked up shipping under 30kg.&lt;/p&gt;
 
 &lt;p&gt;I had the unfortunate scenario of travelling to different countries with different weather. I was really hoping that I would be able to pull of the 'no winter clothes' but it fucking started snowing in Sweden before I left Australia so I had to prepare. I had to pack sandals, winter shoes and my normal shoes. I had to pack a jacket for winter and of course my jacket in Australia is really shit because Australia.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Awesome Tools for Windows</title>
-    <link rel="alternate" href="http://blog.url.com/2016/04/24/awesome-tools-for-windows.html"/>
-    <id>http://blog.url.com/2016/04/24/awesome-tools-for-windows.html</id>
-    <published>2016-04-24T02:00:00+02:00</published>
-    <updated>2018-03-05T17:48:00+01:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h1 id="awesome-tools-for-windows"&gt;Awesome Tools for Windows.&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Asked about the fact that Apple's iTunes software for Windows
-computers was extremely popular, Jobs joked, 'It's like giving a glass of ice
-water to somebody in hell.”
-― Walter Isaacson&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id="open-the-windows"&gt;Open the Windows.&lt;/h4&gt;
-
-&lt;p&gt;When I first started University with the idea of being a programmer I had no
-idea how easy I could make my life if I had just installed Linux. The computers
-we were taught on pretty much all had Windows installed on them and only
-some of the really serious people in my course had switched to Linux. I was
-scared to the jump ship and knowing that my craptop had &lt;a href="https://en.wikipedia.org/wiki/Hardware_virtualization" target="_blank"&gt;hardware virtualisation&lt;/a&gt; disabled it wouldn't be possible to switch back quickly if I
-wanted to.&lt;/p&gt;
-
-&lt;p&gt;This is when I met &lt;a href="https://github.com/brendanzab" target="_blank"&gt;Brendan&lt;/a&gt; who offered up his awesome
-knowledge to me about the possibility of making Windows run a little bit like Linux.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.giphy.com/cOWNPwDDh1tYs.gif" alt="&amp;quot;Mmm chocolate&amp;quot;" /&gt;&lt;/p&gt;
-
-&lt;h4 id="everything-is-better-with-chocolate"&gt;Everything is better with Chocolate.&lt;/h4&gt;
-
-&lt;p&gt;Windows, the land where open source software pages look like you are going to
-download Malware.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;"Chocolatey is a package manager for Windows (like apt-get or yum
-but for Windows). It was designed to be a decentralized framework for quickly
-installing applications and tools that you need. It is built on the NuGet
-infrastructure currently using PowerShell as its focus for delivering packages
-from the distros to your door, err computer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is a must if you want to live the Windows life.&lt;/p&gt;
-
-&lt;p&gt;Install &lt;a href="https://chocolatey.org/" target="_blank"&gt;chocolatey&lt;/a&gt; to free yourself!&lt;/p&gt;
-
-&lt;h4 id="simba-cmder"&gt;Simba, Cmder…&lt;/h4&gt;
-
-&lt;p&gt;Did you know you can have an awesome console on Windows?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;"Cmder is a software package created out of pure frustration over the absence of nice
-console emulators on Windows. It is based on amazing software, and spiced up
-with the Monokai color scheme and a custom prompt layout. Looking sexy from the
-start."&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Well, welcome to the wonderful world of
-&lt;a href="http://cmder.net/" target="_blank"&gt;Cmder&lt;/a&gt;. The place where no one knows how to pronouce
-it and honestly we don't care because it's got multi tabs. YAY!&lt;/p&gt;
-
-&lt;p&gt;To download this sweet terminal just go into what you currently have… either
-Powershell or CMD and type in the following:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;choco install cmder&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Pin it to your toolbar and you're good to go for the rest
-of your Windows career.&lt;/p&gt;
-
-&lt;p&gt;*If it doesn't work you are probably missing &lt;a href="https://www.microsoft.com/en-au/download/details.aspx?id=48145" target="_blank"&gt;Visual C++ Redistributable&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.giphy.com/szmmbDDpS67LO.gif" alt="&amp;quot;Simba dance&amp;quot;" /&gt;&lt;/p&gt;
-
-&lt;h4 id="go-crazy"&gt;Go crazy.&lt;/h4&gt;
-
-&lt;p&gt;Now you are set to go and can download all the things! These two tools are
-awesome and make life so much easier. There are heaps of awesome things you
-could do.&lt;/p&gt;
-
-&lt;p&gt;You could install &lt;strong&gt;Git:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;choco install git&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Or perhaps you want to run &lt;strong&gt;Bash on Cmder:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Open Cmder, then click on the new tab menu, selecting the Setup tasks... option.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/images/cmder-task-settings.png" alt="cmder setup" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Create a new task by clicking the + button, and enter the following settings:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Name:&lt;/strong&gt; &lt;code&gt;Git Bash&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Task parameters:&lt;/strong&gt; &lt;code&gt;/icon "%ProgramFiles(x86)%\Git\etc\git.ico" /dir "%userprofile%"&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Commands:&lt;/strong&gt; &lt;code&gt;""C:\Program Files (x86)\Git\bin\sh.exe" --login -i"&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Or maybe you want to code some &lt;strong&gt;Ruby&lt;/strong&gt; &lt;code&gt;choco install ruby&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;My personal favourite is to add my &lt;strong&gt;SSH keys&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Open Git Bash
-in cmder. Follow Github's&lt;/code&gt; &lt;a href="https://help.github.com/articles/generating-an-ssh-key/#platform-windows" target="_blank"&gt;instructions
-for setting up your SSH keys&lt;/a&gt; &lt;code&gt;using ssh-keygen&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The list goes on…&lt;/em&gt;
-Check all the packages on &lt;a href="https://chocolatey.org/packages" target="_blank"&gt;Chocolatey&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Have fun!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://msdn.microsoft.com/en-au/commandline/wsl/about" target="_blank"&gt;This might soon be obsolete information as Windows has this plan where they make Linux work on Windows for realz&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.giphy.com/l41m1CuaT5Oy624Ra.gif" alt="&amp;quot;Welcome to the interwebs&amp;quot;" /&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
