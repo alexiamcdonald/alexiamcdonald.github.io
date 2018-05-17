@@ -5,10 +5,210 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-12-18T01:00:00+01:00</updated>
+  <updated>2018-05-17T02:00:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>New Blog Incoming</title>
+    <link rel="alternate" href="http://blog.url.com/2018/05/17/new-blog-incoming.html"/>
+    <id>http://blog.url.com/2018/05/17/new-blog-incoming.html</id>
+    <published>2018-05-17T02:00:00+02:00</published>
+    <updated>2018-05-17T23:26:24+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="new-blog-incoming"&gt;New Blog Incoming.&lt;/h1&gt;
+
+&lt;p&gt;So I've decided it's time to start rebuilding my website. You can probably tell it's struggling since my copyright is covering blog titles on the side and some of them are even missing now…&lt;/p&gt;
+
+&lt;p&gt;Some things I've decided about it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It needs to be static&lt;/li&gt;
+  &lt;li&gt;It needs to be able to support growth&lt;/li&gt;
+  &lt;li&gt;It needs to look good&lt;/li&gt;
+  &lt;li&gt;Needs to be easy to add new blogs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="static"&gt;Static&lt;/h3&gt;
+
+&lt;p&gt;I don't want to pay for hosting and when it comes to my time I need to be able to keep the upkeep of this site to a minimum. Keeping the site static allows for this.&lt;/p&gt;
+
+&lt;p&gt;But I don't want to write it in straight HTML, Javascript and CSS. I'm probably going to keep to a css style I've copied somewhere off the web so I can keep my styling to a minimum and cut out a third of the work trying to think of what looks good in CSS. Plus I'm terrible at CSS so giving that job to someone else makes it so much easier for me.&lt;/p&gt;
+
+&lt;p&gt;I'd like to keep using Ruby because it's a really nice language to write in. The syntax is easy to read and I can go back and easily change it since my initial background is in Ruby.&lt;/p&gt;
+
+&lt;p&gt;I would like to have a bit more fun Javascript in my site now that I'm getting pretty awesome at it. I'll see if I can do some cool stuff that's interactive in the future. 😉&lt;/p&gt;
+
+&lt;h3 id="growth"&gt;Growth&lt;/h3&gt;
+
+&lt;p&gt;So I need to be able to support that my blog will grow and that I might want to add future things etc. I've drawn up a few wireframes to have an idea of what I think I might do. But of course it might change depending on how I feel with the experimenting.&lt;/p&gt;
+
+&lt;p&gt;So here is what I'm thinking my initial About Me page will look like. Just a really simple page like I currently have.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/about_me_page.png" alt="About Me Wireframe" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm thinking I'll have my Blog page in a more traditional blog style. Might even add an RSS feed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/blog_page.png" alt="Blog Wireframe" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, I'm probably going to go with a pdf dump of my current resume since I really like the design of it. But I'm a little worried it might not match up with the rest of the design of my site so I'll have to figure out how I can make that flow and connect so it doesn't feel like an extreme transition. Maybe it means I'll need to tone down on the colours of my resume.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/resume_page.png" alt="Resume Wireframe" /&gt;&lt;/p&gt;
+
+&lt;h3 id="easy"&gt;Easy&lt;/h3&gt;
+
+&lt;p&gt;Finally, I need this blog to be easy to upkeep. I want to be able to just write a really quick blog post without too much thinking. Markdown is great for that so I'll be keep with my current frame work Middleman to do that.&lt;/p&gt;
+
+&lt;p&gt;Hopefully, this happens soon and I'll keep this site updated till then.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Down the Rabbit Hole</title>
+    <link rel="alternate" href="http://blog.url.com/2018/03/29/down-the-rabbit-hole.html"/>
+    <id>http://blog.url.com/2018/03/29/down-the-rabbit-hole.html</id>
+    <published>2018-03-29T02:00:00+02:00</published>
+    <updated>2018-05-17T22:52:57+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="down-the-rabbit-hole"&gt;Down the Rabbit Hole.&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“But I don’t want to go among mad people," Alice remarked.
+"Oh, you can’t help that," said the Cat: "we’re all mad here. I’m mad. You’re mad."
+"How do you know I’m mad?" said Alice.
+"You must be," said the Cat, "or you wouldn’t have come here.”
+― Lewis Carroll, Alice in Wonderland&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id="through-the-looking-glass"&gt;Through the Looking Glass&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="https://images.pexels.com/photos/121663/pexels-photo-121663.jpeg?auto=compress&amp;amp;cs=tinysrgb&amp;amp;dpr=2&amp;amp;h=750&amp;amp;w=1260" alt="rabbit hole" /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week I met up with &lt;a href="https://github.com/chinamisr254" target="_blank"&gt;Joseph Hawkins&lt;/a&gt; a budding Ruby Developer from the US who I helped a little to find his way out of a rabbit hole in his code.&lt;/p&gt;
+
+&lt;p&gt;For me, when I'm mentoring folks I find it interesting to see how folks are taught programming in different countries but with similar code assignments. And it's interesting to meet different people who learn at different speeds and do different things to solve the same problem.&lt;/p&gt;
+
+&lt;p&gt;As some people might know, I've been mentoring my sister &lt;a href="https://twitter.com/sophierose239" target="_blank"&gt;Sophie McDonald&lt;/a&gt; as well and one thing I find about mentoring is that I usually get asked similar questions. So I thought I should write something so that people who are aspiring to be programmers understand that even programmers who you think are "so above you" actually make mistakes and can get into similar situations like you too.&lt;/p&gt;
+
+&lt;p&gt;And the reason I say this is because we all have similar fears and anxiety around learning something new or even old.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" data-lang="en-gb"&gt;&lt;p lang="en" dir="ltr"&gt;I have been coding Ruby for over a decade and yet I just lost an hour because of something expecting a string when I was giving it a symbol.&lt;/p&gt;&amp;mdash; Ryan Bigg (@ryanbigg) &lt;a href="https://twitter.com/ryanbigg/status/979578016127885312?ref_src=twsrc%5Etfw"&gt;30 March 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id="brainfarts-and-rabbit-holes"&gt;Brainfarts and Rabbit Holes&lt;/h3&gt;
+
+&lt;p&gt;I'm a little embarrassed to admit this but I have "brainfarts" moments all the time and end up in rabbit holes so much so that I can end up wasting time writing silly code that is not even needed. Usually it happens when I'm stressed or I haven't had enough sleep or even from just the weather being awful.&lt;/p&gt;
+
+&lt;p&gt;So if it's really important to make sure your mental health and physical health is in tip top shape if you want to function properly.&lt;/p&gt;
+
+&lt;p&gt;Ok.. soooo here is the problem I spent a bunch of time on that is really embarrassing for me.&lt;/p&gt;
+
+&lt;p&gt;I had an input field similar to the one below with:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+&amp;lt;select class="form-control" name="language" type="language" id="language"&amp;gt;
+  &amp;lt;option value=""&amp;gt;Select Language&amp;lt;/option&amp;gt;
+  &amp;lt;option value="1"&amp;gt;English&amp;lt;/option&amp;gt;
+  &amp;lt;option value="2"&amp;gt;French&amp;lt;/option&amp;gt;
+  &amp;lt;option value="3"&amp;gt;Japanese&amp;lt;/option&amp;gt;
+&amp;lt;/select&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;select class="form-control" name="language" type="language" id="language"&gt;
+  &lt;option value=""&gt;Select Language&lt;/option&gt;
+  &lt;option value="1"&gt;English&lt;/option&gt;
+  &lt;option value="2"&gt;French&lt;/option&gt;
+  &lt;option value="3"&gt;Japanese&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+
+&lt;p&gt;And for some reason I couldn't remember that you there is an ability to have a &lt;code&gt;selected&lt;/code&gt; option in html.&lt;/p&gt;
+
+&lt;p&gt;So I started writing in Python a way to remove the language I was selecting from the list because it would showing up twice the way I had written the HTML originally. I had even spent some time writing tests to solve this. 😨&lt;/p&gt;
+
+&lt;p&gt;The messed up way looked like the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;select class="form-control" name="language" type="language" id="language"&gt;
+  &lt;option value="3"&gt;Japanese&lt;/option&gt;
+  &lt;option value="1"&gt;English&lt;/option&gt;
+  &lt;option value="2"&gt;French&lt;/option&gt;
+  &lt;option value="3"&gt;Japanese&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+
+&lt;p&gt;Seriously, open that drop down menu up and see what's going on and you'll see the issue I had. 😅 And I was trying to solve this problem in the backend with Python. WTF brain why aren't you working?!?!&lt;/p&gt;
+
+&lt;p&gt;Anyway, after a day or something and talking with a workmate, 🦆 I realised that all I needed to do was write the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;option value="3" selected&amp;gt;Japanese&amp;lt;/option&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;So that it would turn out like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;select class="form-control" name="language" type="language" id="language"&gt;
+  &lt;option value=""&gt;Select Language&lt;/option&gt;
+  &lt;option value="1"&gt;English&lt;/option&gt;
+  &lt;option value="2"&gt;French&lt;/option&gt;
+  &lt;option value="3" selected=""&gt;Japanese&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm not even going to show you the Python I wrote for trying to solve this problem because no one should see that EVER. And also it's completely useless so if I put it anywhere I'm worried people might use it.&lt;/p&gt;
+
+&lt;p&gt;It's been deleted forever now.&lt;/p&gt;
+
+&lt;h3 id="fear-of-failure"&gt;Fear of Failure&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="https://images.pexels.com/photos/568027/pexels-photo-568027.jpeg?auto=compress&amp;amp;cs=tinysrgb&amp;amp;h=650&amp;amp;w=940" alt="fear" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I feel like a lot of questions on Stack Overflow, especially Javascript problems, are people having brainfart moments. I think it's important that those exist but sometimes they can lead us down the wrong path and we end up losing our way.&lt;/p&gt;
+
+&lt;p&gt;So if you do post on Stack Overflow (and I highly recommend you do at some stage) make sure you have tried to researched the problem thoroughly and checked to see if someone has asked a similar question. Believe me when I say, there is most likely an answer already written somewhere about the same problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Overcome the fear of failure because the first step to success is to at least try.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;And don't feel bad if you don't know something. Just Google it! Even if you feel it's something you should already know. Learning something over and over again is calling practicing and it helps you become better by committing it to your long term memory.&lt;/p&gt;
+
+&lt;p&gt;Basically what I'm trying to say with this post, is that everyone has these moments even people who have been coding for years. So if you are ever feeling like you can't do it just remember we are all have the ability to do it wrong.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Debugging the slow way.</title>
+    <link rel="alternate" href="http://blog.url.com/2018/03/05/debugging-the-slow-way.html"/>
+    <id>http://blog.url.com/2018/03/05/debugging-the-slow-way.html</id>
+    <published>2018-03-05T01:00:00+01:00</published>
+    <updated>2018-05-17T22:52:57+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="debugging-the-slow-way"&gt;Debugging the Slow Way.&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src="https://images.pexels.com/photos/813469/pexels-photo-813469.jpeg?w=1260&amp;amp;h=750&amp;amp;dpr=2&amp;amp;auto=compress&amp;amp;cs=tinysrgb" alt="Snail" /&gt;&lt;/p&gt;
+
+&lt;h4 id="changing-languages"&gt;Changing languages.&lt;/h4&gt;
+
+&lt;p&gt;So in my &lt;a href="/2017/12/18/future-plans-in-self-development.html" target="_blank"&gt;last article I wrote how I was doing Python nowadays instead of Ruby.&lt;/a&gt; 😭&lt;/p&gt;
+
+&lt;p&gt;It's been a lot easier than I originally thought it would be and I would say that a nice 😇 (or maybe not so nice 😈) side effect has meant my Javascript has significantly improved since the move too.&lt;/p&gt;
+
+&lt;p&gt;The main reason and the driving force for this has been the old skool and super boring way I've been debugging my problems in Python. There are tools similar to Ruby's Pry in Python such as PDB (Python De Bug???) but they are totally not the same or as flexible and that's mainly been why most of my cursing at work has been around "ahhhh damn you Python being so shitty!!!" whilst all my co-workers laugh at my &lt;a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"&gt;never ending adoration for Ruby.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id="back-to-school"&gt;Back to School.&lt;/h4&gt;
+
+&lt;p&gt;Yes, I've been using &lt;code&gt;Print()&lt;/code&gt; A LOT!&lt;/p&gt;
+
+&lt;p&gt;and &lt;code&gt;console.log()&lt;/code&gt; has been my go to for Javascript.&lt;/p&gt;
+
+&lt;p&gt;There is no updating the page and waiting for pry to stop my stuff and solving the problem in the console like I did for Ruby. I now have to think and refresh and then check it and then refresh and think and ALL THE THINGS I DIDN'T HAVE TO DO BEFORE.&lt;/p&gt;
+
+&lt;p&gt;I don't even remember what Pry was like anymore…&lt;/p&gt;
+
+&lt;p&gt;Anyway, going old skool can definitely improve your coding and if you really don't want to go to the trouble of adding Pry into your script/project for Ruby you can always use handy dandy &lt;code&gt;put&lt;/code&gt; method.&lt;/p&gt;
+
+&lt;p&gt;Happy Coding! ❤️&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Future Plans in Self Development.</title>
     <link rel="alternate" href="http://blog.url.com/2017/12/18/future-plans-in-self-development.html"/>
@@ -211,313 +411,6 @@ Picture of Waterfronts in Sweden, taken from &lt;a href="https://commons.wikimed
 &lt;p&gt;Anyway, a huge thanks once again to &lt;a href="https://github.com/olleolleolle" target="_blank"&gt;Olle Jonsson&lt;/a&gt;, &lt;a href="https://github.com/drenmi" target="_blank"&gt;Ted Johansson&lt;/a&gt;, &lt;a href="https://twitter.com/Marcus_Pazienza" target="_blank"&gt;Marcus Liverfalk&lt;/a&gt; and &lt;a href="https://github.com/clearminds" target="_blank"&gt;Daniel Eriksson&lt;/a&gt; for their hard work reading and correcting my Swedish 💜.&lt;/p&gt;
 
 &lt;p&gt;Let us know how your experience is going with our Swedish site. If you want to see our app in your language, contact us at &lt;a href="&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#106;&amp;#111;&amp;#105;&amp;#110;&amp;#046;&amp;#105;&amp;#102;&amp;#109;&amp;#101;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;"&gt;&amp;#106;&amp;#111;&amp;#105;&amp;#110;&amp;#046;&amp;#105;&amp;#102;&amp;#109;&amp;#101;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>How to Move Overseas From Australia</title>
-    <link rel="alternate" href="http://blog.url.com/2016/12/19/how-to-move-overseas-from-australia.html"/>
-    <id>http://blog.url.com/2016/12/19/how-to-move-overseas-from-australia.html</id>
-    <published>2016-12-19T01:00:00+01:00</published>
-    <updated>2017-09-19T18:03:39+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h1 id="how-to-move-overseas-from-australia"&gt;How to move overseas from Australia&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src="/images/freedom_moving.jpeg" alt="woman being free" /&gt;&lt;/p&gt;
-
-&lt;h3 id="get-rid-of-everything"&gt;Get rid of everything&lt;/h3&gt;
-
-&lt;p&gt;When moving overseas it's best to get rid of as much as you possibly can. Really love that awesome bicycle you own? Sorry, it has to go. If there are small things you want to keep you can always post them to your new address overseas but if you can do without it then get rid of it.&lt;/p&gt;
-
-&lt;p&gt;Ways to rid yourself of crap:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sell it on Gumtree or through Facebook&lt;/li&gt;
-  &lt;li&gt;Give it away to friends&lt;/li&gt;
-  &lt;li&gt;If it's useless meaningless crap throw it out&lt;/li&gt;
-  &lt;li&gt;Donate to charity (they sometimes even come pick it up for you!)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you plan on selling your crap remember to give yourself a few weeks to do it. A lot of people who buy things off the internet are useless at turning up or even following through with their purchases.&lt;/p&gt;
-
-&lt;h3 id="disconnecting-utilities"&gt;Disconnecting utilities&lt;/h3&gt;
-
-&lt;h4 id="watergaselectricity"&gt;Water/Gas/Electricity&lt;/h4&gt;
-&lt;p&gt;Very simple to do. Just call them up a few days before you leave to disconnect the services.&lt;/p&gt;
-
-&lt;h4 id="health-insurance"&gt;Health insurance&lt;/h4&gt;
-&lt;p&gt;I'm currently with AHM and if you call them up they can put your health insurance on hold for a year. Very practical. If you come back for a holiday (to Australia) you can just restart and you don't have to do the waiting periods again. You can also put it back on hold any time. Very handy indeed.&lt;/p&gt;
-
-&lt;p&gt;If you can find health insurance that includes travel insurance that's also a bonus. Lucky for me I found a credit card that throw it in compliments of your spending.&lt;/p&gt;
-
-&lt;h4 id="internet"&gt;Internet&lt;/h4&gt;
-&lt;p&gt;This one was actually a kicker for me. I ended up having to pay extra because I forgot to read the fine print for cancellation. Some internet companies &lt;em&gt;cough&lt;/em&gt; TPG &lt;em&gt;cough&lt;/em&gt; want you to cancel at least 30 days before. If you are leaving before 30 days you might have to pay a cancellation fee unless you find some kind soul to take over your services.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.wes.id.au/2014/02/cancel-tpg-adsl/"&gt;This person's website was very helpful when cancelling my TPG account&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id="mobile-services"&gt;Mobile services&lt;/h4&gt;
-&lt;p&gt;If you know you are going to leave sometime in the future make sure you call your mobile provider every couple of months to complain about the shitty service of your postpaid contract account. If you do this it will provide a very easy way for you to cancel the contract without incurring expensive costs that are usually associated with contracts.&lt;/p&gt;
-
-&lt;p&gt;When it's time to leave just explain that you wish to cancel your contract due to extremely awful service and you'll usually have your service either heavily discounted or waived completely.&lt;/p&gt;
-
-&lt;p&gt;I picked up a super expensive travel SIM as I was travelling to a bunch of different countries on the way. It seemed like the best option. I changed my Australian number to ALDI because it was on $5 to park my number there for a year better than some of the other telecommunications companies. My travel SIM ended up costing me more than $70 for the month because Israel got very expensive. It would have been ok if I hadn't gone to Israel. I've now switched to a SIM card in the country I am in now for practical reasons. But it's still temp at the moment due to the lack of personal number at the beginning of my arrival in Sweden.&lt;/p&gt;
-
-&lt;h3 id="finances"&gt;Finances&lt;/h3&gt;
-&lt;p&gt;It's a good idea to pay your finances ahead of time. Exchange rates are terrible and you don't want to be that person who's traveller cheques aren't accepted. No one does cheques anymore coz they are super lame!&lt;/p&gt;
-
-&lt;p&gt;You have some alternatives.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Get yourself a credit card with "No foreign transaction fees on online or overseas purchases"
-I had a look around the &lt;a href="http://www.bankwest.com.au/personal/credit-cards/compare-credit-cards/zero-mastercard-no-annual-fee-credit-cards"&gt;Bankwest Zero Platinum Mastercard&lt;/a&gt; was the best one I could find for my situation and it also offered complimentary travel insurance. Make sure you look up a credit card compare site to find the best deal for your scenario.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Set up a money transfer account&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href="http://www.xe.com/xemoneytransfer/au/?WT.seg_1=XTR-400x30-XHOM-ADH-AU-V01-161031"&gt;XE Money Transfer&lt;/a&gt; is a great way to easily transfer money between your Australian account and your new overseas bank account. It's a little bit of a hassle to setup and they might randomly call you in the middle of the night from some foreign country to confirm you're a legit person.&lt;/p&gt;
-
-&lt;p&gt;There is also &lt;a href="https://transferwise.com/"&gt;Transfer Wise&lt;/a&gt; as well. It's a much nicer web experience and verification takes less time too! You can easily set it up with Facebook or your Google account. Either way I'll end up using one of the two to transfer money to myself.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Tell your banks you are going overseas&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Set up paperless statements if you haven't already done this&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Make sure you have access to Paypal overseas. I found out the hard way when I lost my SIM card that I couldn't access my accounts because I had done 2 factor auth with my Australian phone number. Yup, good job me.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="getting-stuff-done-in-sweden"&gt;Getting stuff done in Sweden&lt;/h3&gt;
-
-&lt;p&gt;As soon as you have found out if your visa has been approved your next step should be to set up an appointment date to have your fingerprints and photo to be taken at the immigration office.&lt;/p&gt;
-
-&lt;p&gt;As soon as you get this card from the immigration office you need to go to the Tax office and ask for a personal number. If at all possible try and get a Tax ID card from them on the same day. They may not be able to do it in which case you will probably have to wait a week and then come back to get the ID card. You can also hand in your forms for Försäkringskassan which you will have to fill in if you are staying in Sweden longer than a year.&lt;/p&gt;
-
-&lt;p&gt;All these processes may take more than 2 weeks.&lt;/p&gt;
-
-&lt;p&gt;After you have a personal number and an ID card you can apply for a bank account. Bank accounts in Sweden seem to be very difficult to get if you are not a Swede. They don't seem to care if you earn money or that you need to pay people. If you aren't Swedish you can't have a bank account. So make sure you have a personal number and an ID card and you should be able to get one.&lt;/p&gt;
-
-&lt;p&gt;If you aren't staying for a year then a organisation number should be ok to get a bank account at some banks. They might give you a maestro bank card (which can be pretty useless) to access your account but they probably won't give you internet banking. Swedbank and Nordea are known for being really difficult when it comes to this. I've had success at SEB in the past so if you find yourself not being able to have financial independence at other banks then try SEB.&lt;/p&gt;
-
-&lt;h3 id="packing-your-suitcase"&gt;Packing your suitcase&lt;/h3&gt;
-
-&lt;p&gt;As I was travelling to other countries on the way to Sweden. I needed to make sure that my suitcase was going to be compliant with all the airlines weight limits. I had a goal of making my suitcase 20kg even though with my first flight I was allowed 32kg. I looked up the weight limits for all the different airlines that I was flying with. Some ranged from 32kg to 20kg and I decided that it was probably best to aim for 20kg.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;** Turns out I still had to pay for extra baggage on my way to Prague because it wasn't specified very clearly on the website. Thank you Air Berlin! **&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I donated a lot of clothes to charities so that I could reach my weight limit and with some things I really wanted to keep but didn't need straight away I chucked into a box for shipping at a later date. I still haven't the box sent but I plan on sending it through Pack and Send as they seemed the cheapest when I looked up shipping under 30kg.&lt;/p&gt;
-
-&lt;p&gt;I had the unfortunate scenario of travelling to different countries with different weather. I was really hoping that I would be able to pull of the 'no winter clothes' but it fucking started snowing in Sweden before I left Australia so I had to prepare. I had to pack sandals, winter shoes and my normal shoes. I had to pack a jacket for winter and of course my jacket in Australia is really shit because Australia.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Awesome Tools for Windows</title>
-    <link rel="alternate" href="http://blog.url.com/2016/04/24/awesome-tools-for-windows.html"/>
-    <id>http://blog.url.com/2016/04/24/awesome-tools-for-windows.html</id>
-    <published>2016-04-24T02:00:00+02:00</published>
-    <updated>2017-09-19T18:02:55+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h1 id="awesome-tools-for-windows"&gt;Awesome Tools for Windows.&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Asked about the fact that Apple's iTunes software for Windows
-computers was extremely popular, Jobs joked, 'It's like giving a glass of ice
-water to somebody in hell.”
-― Walter Isaacson&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id="open-the-windows"&gt;Open the Windows.&lt;/h4&gt;
-
-&lt;p&gt;When I first started University with the idea of being a programmer I had no
-idea how easy I could make my life if I had just installed Linux. The computers
-we were taught on pretty much all had Windows installed on them and only
-some of the really serious people in my course had switched to Linux. I was
-scared to the jump ship and knowing that my craptop had &lt;a href="https://en.wikipedia.org/wiki/Hardware_virtualization" target="_blank"&gt;hardware virtualisation&lt;/a&gt; disabled it wouldn't be possible to switch back quickly if I
-wanted to.&lt;/p&gt;
-
-&lt;p&gt;This is when I met &lt;a href="https://github.com/brendanzab" target="_blank"&gt;Brendan&lt;/a&gt; who offered up his awesome
-knowledge to me about the possibility of making Windows run a little bit like Linux.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.giphy.com/cOWNPwDDh1tYs.gif" alt="&amp;quot;Mmm chocolate&amp;quot;" /&gt;&lt;/p&gt;
-
-&lt;h4 id="everything-is-better-with-chocolate"&gt;Everything is better with Chocolate.&lt;/h4&gt;
-
-&lt;p&gt;Windows, the land where open source software pages look like you are going to
-download Malware.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;"Chocolatey is a package manager for Windows (like apt-get or yum
-but for Windows). It was designed to be a decentralized framework for quickly
-installing applications and tools that you need. It is built on the NuGet
-infrastructure currently using PowerShell as its focus for delivering packages
-from the distros to your door, err computer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is a must if you want to live the Windows life.&lt;/p&gt;
-
-&lt;p&gt;Install &lt;a href="https://chocolatey.org/" target="_blank"&gt;chocolatey&lt;/a&gt; to free yourself!&lt;/p&gt;
-
-&lt;h4 id="simba-cmder"&gt;Simba, Cmder…&lt;/h4&gt;
-
-&lt;p&gt;Did you know you can have an awesome console on Windows?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;"Cmder is a software package created out of pure frustration over the absence of nice
-console emulators on Windows. It is based on amazing software, and spiced up
-with the Monokai color scheme and a custom prompt layout. Looking sexy from the
-start."&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Well, welcome to the wonderful world of
-&lt;a href="http://cmder.net/" target="_blank"&gt;Cmder&lt;/a&gt;. The place where no one knows how to pronouce
-it and honestly we don't care because it's got multi tabs. YAY!&lt;/p&gt;
-
-&lt;p&gt;To download this sweet terminal just go into what you currently have… either
-Powershell or CMD and type in the following:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;choco install cmder&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Pin it to your toolbar and you're good to go for the rest
-of your Windows career.&lt;/p&gt;
-
-&lt;p&gt;*If it doesn't work you are probably missing &lt;a href="https://www.microsoft.com/en-au/download/details.aspx?id=48145" target="_blank"&gt;Visual C++ Redistributable&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.giphy.com/szmmbDDpS67LO.gif" alt="&amp;quot;Simba dance&amp;quot;" /&gt;&lt;/p&gt;
-
-&lt;h4 id="go-crazy"&gt;Go crazy.&lt;/h4&gt;
-
-&lt;p&gt;Now you are set to go and can download all the things! These two tools are
-awesome and make life so much easier. There are heaps of awesome things you
-could do.&lt;/p&gt;
-
-&lt;p&gt;You could install &lt;strong&gt;Git:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;choco install git&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Or perhaps you want to run &lt;strong&gt;Bash on Cmder:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Open Cmder, then click on the new tab menu, selecting the Setup tasks... option.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/images/cmder-task-settings.png" alt="cmder setup" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Create a new task by clicking the + button, and enter the following settings:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Name:&lt;/strong&gt; &lt;code&gt;Git Bash&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Task parameters:&lt;/strong&gt; &lt;code&gt;/icon "%ProgramFiles(x86)%\Git\etc\git.ico" /dir "%userprofile%"&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Commands:&lt;/strong&gt; &lt;code&gt;""C:\Program Files (x86)\Git\bin\sh.exe" --login -i"&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Or maybe you want to code some &lt;strong&gt;Ruby&lt;/strong&gt; &lt;code&gt;choco install ruby&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;My personal favourite is to add my &lt;strong&gt;SSH keys&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Open Git Bash
-in cmder. Follow Github's&lt;/code&gt; &lt;a href="https://help.github.com/articles/generating-an-ssh-key/#platform-windows" target="_blank"&gt;instructions
-for setting up your SSH keys&lt;/a&gt; &lt;code&gt;using ssh-keygen&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The list goes on…&lt;/em&gt;
-Check all the packages on &lt;a href="https://chocolatey.org/packages" target="_blank"&gt;Chocolatey&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Have fun!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://msdn.microsoft.com/en-au/commandline/wsl/about" target="_blank"&gt;This might soon be obsolete information as Windows has this plan where they make Linux work on Windows for realz&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.giphy.com/l41m1CuaT5Oy624Ra.gif" alt="&amp;quot;Welcome to the interwebs&amp;quot;" /&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>How to find a Job in Tech</title>
-    <link rel="alternate" href="http://blog.url.com/2016/04/16/how-to-find-a-job-in-tech.html"/>
-    <id>http://blog.url.com/2016/04/16/how-to-find-a-job-in-tech.html</id>
-    <published>2016-04-16T02:00:00+02:00</published>
-    <updated>2017-09-19T18:02:55+02:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h1 id="how-to-find-a-job-in-tech"&gt;How to find a Job in Tech.&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You're still working on that website that you were working on 4 weeks ago?
-That’s a lot of work for one website. There must be a lot of
-programmers because if you think about how many websites there are, that’s a lot.
-- Flatmate&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id="too-many-websites"&gt;Too many websites.&lt;/h4&gt;
-
-&lt;p&gt;It’s weird how I hear from people I went to University with or
-people I run into who have a tech degree and they can’t find a job. That flatmate
-is correct. We need a lot of devs to take care of the internet. We
-don’t have enough developers at the moment to take care of all those websites
-and we are going to need a lot more if the population keeps growing and every
-man, woman, child and their doge 🐕 wants a website.&lt;/p&gt;
-
-&lt;h4 id="but-there-are-no-jobs"&gt;But there are no jobs.&lt;/h4&gt;
-
-&lt;p&gt;It’s a fallacy that there are no jobs in tech. I’m going
-to give it to you really, really blunt. The reason you can’t get a job in tech is
-because you’re not trying. Looking on seek.com.au or whirlpool is not where you
-are going to find a job. Sure, there are jobs on there but they are not the jobs
-I suspect you want.&lt;/p&gt;
-
-&lt;h4 id="are-you-passionate"&gt;Are you passionate?&lt;/h4&gt;
-
-&lt;p&gt;Passion is what you need. Clearly, if you had passion you
-would have a job by now. Are you working on something now? Are you keeping
-yourself busy with what you love? Seriously, people who are passionate about
-what they love get jobs. They get emails all the time from people asking to hire
-them. If you aren’t getting emails from people asking you to work for them then
-something is wrong.&lt;/p&gt;
-
-&lt;h4 id="practice-what-you-dont-know"&gt;Practice what you don't know.&lt;/h4&gt;
-
-&lt;p&gt;Oh, congratulations you just got out of University
-and you know absolutely nothing. Trust me, you know nothing! If you haven’t been
-pursuing your passion outside of University, then I’m telling you now you are at
-square one. University only teaches you the basics. It teaches you stuff that is
-10 years old that you aren’t ever going to use (maybe some of it). I bet you
-they did not teach you about writing tests for your code and if they did well you
-got lucky. Practice code outside of university and learn new things.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.giphy.com/ypO01RIuQ3tHW.gif" alt="&amp;quot;Nothing is impossible&amp;quot;" /&gt;&lt;/p&gt;
-
-&lt;h4 id="be-part-of-the-community"&gt;Be part of the community.&lt;/h4&gt;
-
-&lt;p&gt;The easiest and best way to get a job is through
-someone you know already. If you don’t know anyone who works in tech then you
-aren’t any closer to your goal of getting a job. You need to be part of the
-community and be noticed. Plus, this is a really good way to learn what is new
-and trendy at the moment and a great way to find a mentor who can help you when
-things get tough. Being part of the community gives you a way to find new
-projects to work on, meet people in tech, help others and be passionate about
-the things you love!&lt;/p&gt;
-
-&lt;h4 id="how"&gt;How?&lt;/h4&gt;
-
-&lt;p&gt;You can get started by working on a project on &lt;a href="https://github.com/" target="_blank"&gt;Github&lt;/a&gt; or
-attending Hackathons. You can also work on that awesome personal project you
-have been thinking about for ages but haven't actually done yet!&lt;/p&gt;
-
-&lt;p&gt;To be part of the community you can attend meetups, follow slack channels for
-programming communities, IRC or forums. Reading and watching videos on the
-latest tech innovations is also a really good way to increase your knowledge.&lt;/p&gt;
-
-&lt;p&gt;If there isn't anything you feel you can be part of you can always start your
-own either at university or through other avenues.&lt;/p&gt;
-
-&lt;p&gt;Good luck!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://i.giphy.com/wCiFka9RsSW9W.gif" alt="&amp;quot;Yes you can&amp;quot;" /&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
