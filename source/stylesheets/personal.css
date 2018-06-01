@@ -1,0 +1,8 @@
+div.rounded {
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.nav {
+  display:inline;
+}
